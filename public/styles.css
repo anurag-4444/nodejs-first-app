@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background: pink;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main form{
+    background: white;
+    width: 40vw;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main form h1{
+    margin-bottom: 15px;
+    margin-top: -142px;
+    border-bottom: 4px solid black
+}
+main form input{
+    margin-bottom: 15px;
+    width: 70%;
+    padding-left: 5px;
+}
+main form button{
+    margin-bottom: 15px;
+    background: #a782ae;
+    height: 33px;
+    width: 105px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.error{
+    color: red;
+    text-align: right;
+    font-size: 0.7rem;
+
+}
+
